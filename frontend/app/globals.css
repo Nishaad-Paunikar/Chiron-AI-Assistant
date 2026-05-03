@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+}
+
+@theme {
+  --color-chiron-purple: #8b5cf6;
+  --color-chiron-glow: #a78bfa;
+}
+
+/* Base styles for the HUD */
+body {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
